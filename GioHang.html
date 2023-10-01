@@ -1,0 +1,126 @@
+﻿﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="GioHang.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <script type="text/javascript" src="JavaScript.js">
+
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server" method="post">
+        <!--<div style="display:table;border:inset;margin:auto;width:1200px">
+            <div class="l" style="margin:auto;display:flex;gap:20px;">-->
+        <div class="form1">
+
+            <table class="BangIphone" border="0" style="box-shadow: 10px 10px 5px #888888;">
+                <tr style="height:70px;">
+
+                    <th> Hình ảnh   <hr width="100%" size="1px;" align="center" color="black;" /></th>
+                    <th> Tên sản phẩm  <hr width="100%" size="1px;" align="center" color="black;" /></th>
+                    <th> Giá bán  <hr width="100%" size="1px;" align="center" color="black;" /></th>
+                    <th> Số lượng   <hr width="100%" size="1px;" align="center" color="black;" /></th>
+
+                </tr>
+                <tr style="height:200px;">
+
+
+                    <td class="AnhIphone">
+                        <a>
+                            <img src="https://shopdunk.com/images/thumbs/0007808_iphone-14-pro-max-128gb_80.png" />
+                        </a>
+                    </td>
+                    <td>
+                        <b class="TenSP0" style="">iPhone 14 Pro Max 128GB</b>
+                        <a class="Inf-dev">
+                            <br />
+                            Khu vưc: Khu vực Miền bắc <br />
+                            Hình thức : Mua thẳng<br />
+                            Màu sắc: Space Balck<br />
+                        </a>
+
+                        <a style="color:dodgerblue">Sửa</a>
+
+
+
+                    </td>
+                    <td>
+                        <input style="margin-left:40px;text-align:center;" type="number" id="dg" min="1" max="" step="1" value="26490000"
+                               onchange="calculator();" />
+                    </td>
+                    <td>
+                        <div style="">
+                            <span style="width:10px 80px 10px" class="material-symbols-outlined">
+                                remove
+                            </span>
+                            <input style="width: 10px 80px 10px;text-align:center;" type="number" id="sl" min="1" max="" step="1" value="1"
+                                   onchange="calculator();" />
+                            <span style="width: 10px 80px 10px" class="material-symbols-outlined">
+                                add
+                            </span>
+                        </div>
+
+
+                        <br />
+
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td> <input type="button" class="nut" value="Cập nhật giỏ hàng ">   </input> </td>
+                    <td> <input type="button" class="nut" value="Tiếp tục mua sắm ">   </input> </td>
+
+                </tr>
+
+
+            </table>
+
+
+
+            <table border="0" class="TinhTien" style="box-shadow: 10px 10px 5px #888888;">
+                <tr style="height:50px;">
+                    <td style="display: flex; margin: auto; margin-top: 17px; text-align: center; padding-left: 40px; ">
+                        <input id="Ma" style="width: 200px; height: 40px; " type="number" min="1" max="100" step="1" placeholder="Ma Giam Gia" />
+                        <button class="ApDung" style="border: 0px solid; height: 40px; ">Áp dụng</button>
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td style="padding-bottom:80px; ">
+                        Tổng phụ:
+                        <span id="tt"></span>
+                        <br />
+                        <br />
+                        Tổng cộng:
+                        <span id="discount"></span>
+                        <br />
+                        <br />
+                        <hr width="80%" size="2px;" align="center" color="black;" />
+                        <input type="checkbox" /> Tôi đã đọc và đồng ý với điều khoản và điều kiện của website
+                        <br />
+                        <br />
+                        <br />
+                        <button class="DatHang" style="border:2px solid;width:200px;
+                        height:50px;text-align:center;font-size:18px;font-family:'Times New Roman';padding:13px 26px;">
+                            Tiến hành đặt hàng
+                        </button>
+                        <p style="color:red;"> (*) Phí phụ thu sẽ được tính khi bạn tiến hành thanh toán.</p>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+
+
+
+
+    </form>
+</body>
+</html>
